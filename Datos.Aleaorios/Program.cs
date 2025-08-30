@@ -16,6 +16,7 @@ void imprimirEmpleado(Empleado e)
     printf("Grupo: %s\n", e.grupo);
     printf("Sueldo: %.2f\n", e.sueldo);
     printf("Seguro médico: %s\n", e.seguroMedico ? "Sí" : "No");
+
 }
 int main()
 {
