@@ -10,6 +10,7 @@ void imprimirEmpleado(Empleado e)
     printf("Datos del empleado:\n");
     printf("Número: %d\n", e.numero);
     printf("Nombre: %s\n", e.nombre);
+
     printf("Fecha nacimiento: %d de %s de %d\n", e.dia, mesAleatorio(e.mes), e.anio);
     printf("Sexo: %s\n", e.sexo);
     printf("Grupo: %s\n", e.grupo);
